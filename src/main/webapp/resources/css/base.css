@@ -1,0 +1,47 @@
+.ui-page {
+	background: linear-gradient(to bottom, #FCFAC8, #FAF69F);
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.ui-header {
+	background: linear-gradient(to bottom, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%);
+}
+
+.ui-input-text input {
+	opacity: 50%;
+	text-align: left;
+	font-size: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.ui-btn {
+	text-align: center;
+	text-shadow: 0px 0px !important;
+	font-family: 'Lobster', cursive;
+	font-size: 100%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+}
+
+.ui-btn:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+
+#footerDiv {
+	background: #FAF69F;
+	border: 0px;
+}
+
+div#footer h4 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 70%;
+}
+
+table tbody tr td {
+	font-family: 'Gloria Hallelujah', cursive;
+}

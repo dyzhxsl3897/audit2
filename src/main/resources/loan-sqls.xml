@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+	<entry key="loan.id.select">
+		FROM Loan
+		WHERE loanId = :loanId
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="from.to.select">
+		FROM Loan
+		WHERE 1 = 1
+		AND fromUser = :fromUser
+		AND toUser = :toUser
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="loan.select">
+		FROM Loan
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="from.to.fromdate.select">
+		FROM Loan
+		WHERE 1 = 1
+		AND fromUser = :fromUser
+		AND toUser = :toUser
+		AND loanTime > :fromDate
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="from.to.fromdate.todate.select">
+		FROM Loan
+		WHERE 1 = 1
+		AND fromUser = :fromUser
+		AND toUser = :toUser
+		AND loanTime &gt; :fromDate
+		AND loanTime &lt; :toDate
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="user.select">
+		FROM Loan
+		WHERE FROM_USER = :fromUser
+		OR TO_USER = :toUser
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="from.select">
+		FROM Loan
+		WHERE FROM_USER = :fromUser
+		ORDER BY loanTime DESC
+	</entry>
+
+	<entry key="to.select">
+		FROM Loan
+		WHERE TO_USER = :toUser
+		ORDER BY loanTime DESC
+	</entry>
+</properties>

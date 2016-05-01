@@ -1,0 +1,56 @@
+#signInDiv {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#signInDiv.ui-bar {
+	border-radius: 25px;
+}
+
+#errMsg {
+	text-align: center;
+	color: red;
+}
+
+#formBarDiv {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
+	background: linear-gradient(to bottom, #896E67, #4E403F);
+	text-shadow: 0px 0px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#inputAreaDiv {
+	border-radius: 0px 0px 10px 10px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#headerDiv {
+	text-align: center;
+	font-size: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#iconImg {
+	width: 10%;
+	height: 10%;
+}
+
+#signUpDiv {
+	text-align: center;
+}
+
+#forgotPasswordDiv {
+	text-align: center;
+}

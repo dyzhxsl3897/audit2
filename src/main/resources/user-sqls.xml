@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+	<entry key="user.id.select">
+		FROM User
+		WHERE userId = :userId
+	</entry>
+
+	<entry key="user.username.select">
+		FROM User
+		WHERE username = :username
+	</entry>
+
+	<entry key="user.username.password.select">
+		FROM User
+		WHERE 1 = 1
+		AND username = :username
+		AND password = :password
+	</entry>
+
+	<entry key="user.all.select">
+		FROM User
+	</entry>
+</properties>
