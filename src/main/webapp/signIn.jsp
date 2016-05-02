@@ -29,7 +29,7 @@
 			</div>
 
 			<div id="signUpDiv">
-				<a id="signUpBtn" href="${pageContext.request.contextPath}/signUp.jsp" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-ajax="false">Sign
+				<a id="signUpBtn" href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-ajax="false">Sign
 					Up</a>
 			</div>
 
